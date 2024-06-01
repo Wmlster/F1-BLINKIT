@@ -48,7 +48,7 @@
     width: 83%;
 }
 
-.category-section,.my-container{
+.my-container{
     margin: auto;
     width: 85%;
     overflow-x: scroll;
@@ -68,6 +68,7 @@
 
 .my-card{
     width: 179px;
+    margin-inline: 10px;
 }
 
 .my-card-time{
@@ -84,4 +85,94 @@
     color: rgb(31,31,31);
     font-weight: 600;
     font-size: 13px;
+}
+
+.my-card-weight{
+  color: #666666;
+  font-size: 13px;
+
+}
+
+.card-price{
+  color: rgb(31,31,31);
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 11px;
+}
+
+.mrp{
+  color: #666666;
+  font-size: 13px;
+}
+
+.category-section{
+  width: 85%;
+  margin: auto;
+}
+
+.category-section-row{
+  width: 100%;
+  overflow-x: scroll;
+}
+.my-footer{
+  width: 85%;
+  margin: auto;
+}
+
+.row-2{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.row-2>p{
+  width: 35%;
+  text-align: justify;
+  color: #666666;
+  font-size: 12px;
+
+}
+
+.row-3{
+  text-align: justify;
+  color: #666666;
+  font-size: 15px;
+  padding: 10px;
+}
+
+.download-section>p{
+  color: #666666;
+  font-weight: 600;
+  font-size: 14px;
+  margin: 16px;
+
+}
+
+.download-btns{
+  background-color: #213b50;
+  color: white;
+  border-radius: 10px;
+  margin: 10px;
+  border: none;
+  padding: 10px;
+
+
+}
+
+.social-btn{
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  font-size: 30px;
+  margin-inline: 10px;
+}
+
+.social{
+  display: flex;
 }
